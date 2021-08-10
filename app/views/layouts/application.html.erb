@@ -11,7 +11,7 @@
   </head>
 
   <body>
-  <%= render 'layouts/navigation' %>
+  <%= render 'layouts/navigation' if current_user %>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
 
