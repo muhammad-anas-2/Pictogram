@@ -111,3 +111,17 @@ body{
     width: 350px;
   }
 }
+
+footer {
+  background-color: #951010;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #FFF;
+  .nav-item{
+    color: #003569 !important;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
