@@ -12,12 +12,16 @@ import 'bootstrap/dist/css/bootstrap'
 
 
 
+global.toastr = require("toastr")
 require("bootstrap")
+require("stylesheets/custom.css.scss")
+
 
 $(document).on('turbolinks:load', function() {
     $(".dropdown-toggle").dropdown('toggle');
 
 });
+
 
 Rails.start()
 Turbolinks.start()
