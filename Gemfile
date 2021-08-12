@@ -14,6 +14,10 @@ gem 'devise'
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 gem 'toastr-rails'
+gem 'carrierwave'
+gem 'cloudinary'
+gem "figaro"
+
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
